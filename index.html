@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My App</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome</h2>
+      <p>A simple static web app to get you started.</p>
+      <button id="cta-btn">Get Started</button>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Built with plain HTML, CSS, and JavaScript. No frameworks, no build tools.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-msg"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 My App</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
