@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "build": "echo no build step",
     "test": "jest"
   },
   "jest": {
